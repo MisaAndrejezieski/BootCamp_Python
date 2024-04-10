@@ -1,0 +1,90 @@
+Você pode desinstalar tudo e refazer a instalação novamente seguido os passos recomendados: 
+
+Acesse o site oficial do Python (www.python.org) e clique na opção de download.
+Na página de download, você verá diferentes versões do Python disponíveis. Escolha a versão que deseja (recomenda-se a mais recente) e faça o download do instalador.
+Após o download do instalador, execute-o.
+Marque a opção “Add Python to PATH” e clique em “Install Now” para iniciar a instalação.
+Aguarde enquanto o instalador completa o processo de instalação.
+Após a conclusão da instalação, você pode verificar se o Python foi instalado corretamente abrindo o Prompt de Comando e digitando python --version. Isso retornará a versão do Python que está instalada em sua máquina.
+Agora digite pip --version no Prompt de Comando. Esse comando retornará a versão do pip que está instalada em sua máquina. O pip é o gerenciador de pacoApostila de Programação em Python
+Introdução
+Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991.
+
+Instalação
+Para instalar o Python, você pode seguir o guia passo a passo que mencionei anteriormente. Lembre-se de verificar a instalação digitando python --version e pip --version no Prompt de Comando.
+
+Sintaxe Básica
+Python tem uma sintaxe muito limpa e legível. Aqui estão alguns conceitos básicos:
+
+Python
+
+# Isto é um comentário
+print("Olá, mundo!")  # Imprime "Olá, mundo!" na tela
+
+# Variáveis
+x = 10  # x é um inteiro
+y = "Olá"  # y é uma string
+
+# Operações matemáticas
+soma = x + 5  # Adição
+multiplicacao = x * 2  # Multiplicação
+
+# Condicionais
+if x > 0:
+    print("x é positivo")
+elif x < 0:
+    print("x é negativo")
+else:
+    print("x é zero")
+
+# Laços de repetição
+for i in range(5):
+    print(i)
+
+while x > 0:
+    x -= 1
+Código gerado por IA. Examine e use com cuidado. Mais informações em perguntas frequentes.
+Estruturas de Dados
+Python possui várias estruturas de dados embutidas muito úteis:
+
+Python
+
+# Listas
+lista = [1, 2, 3, 4, 5]
+lista.append(6)  # Adiciona o número 6 ao final da lista
+item = lista.pop()  # Remove e retorna o último item da lista
+
+# Tuplas
+tupla = (1, 2, 3)
+
+# Dicionários
+dicionario = {"nome": "João", "idade": 20}
+Código gerado por IA. Examine e use com cuidado. Mais informações em perguntas frequentes.
+Funções
+Funções em Python são definidas usando a palavra-chave def:
+
+Python
+
+def saudacao(nome):
+    return "Olá, " + nome
+
+print(saudacao("João"))  # Imprime "Olá, João"
+Código gerado por IA. Examine e use com cuidado. Mais informações em perguntas frequentes.
+Classes e Objetos
+Python suporta programação orientada a objetos com classes e objetos:
+
+Python
+
+class Pessoa:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+
+    def saudacao(self):
+        return "Olá, meu nome é " + self.nome
+
+p = Pessoa("João", 20)
+print(p.saudacao())  # Imprime "Olá, meu nome é João"
+Código gerado por IA. Examine e use com cuidado. Mais informações em perguntas frequentes.
+Conclusão
+Python é uma linguagem poderosa e flexível, usada em muitos campos, desde desenvolvimento web até ciência de dados e aprendizado de máquina. Espero que esta apostila tenha fornecido uma boa introdução à programação em Python. Boa sorte em sua jornada de aprendizado!te do Python. Com ele você poderá adicionar novas funcionalidades ao seu Python.
